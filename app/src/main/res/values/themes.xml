@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Resturant" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- تمِ splashِ سیستمی: پس‌زمینه‌ی مشکی، بدون آیکون -->
+    <style name="Theme.Resturant.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.Resturant</item>
+    </style>
+</resources>
